@@ -16,3 +16,5 @@ export default {
 
 //npx drizzle-kit push:pg
 //ABOVE COMMAND IS USED TO PUSH SCHEMA AND DATA TO DATABASE
+
+//npx drizzle-kit studio
