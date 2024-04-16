@@ -31,6 +31,7 @@ import {
     role: userSystemEnum("role").notNull(),
   });
   
+  export type DrizzleChat= typeof chats.$inferSelect;
   
   
   // drizzle-orm
