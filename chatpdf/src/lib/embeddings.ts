@@ -9,7 +9,7 @@ export async function getEmbeddings(text: string) {
     const model = genAI.getGenerativeModel({ model: "embedding-001"})
     const result = await model.embedContent(text.replace(/\n/g, " "));
     const embedding = result.embedding;
-    console.log(embedding);
+    //console.log(embedding);
     //
     return embedding.values;
     //return embedding as number[];
