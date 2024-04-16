@@ -11,7 +11,7 @@ export async function getEmbeddings(text: string) {
     const embedding = result.embedding;
     console.log(embedding);
     //
-    return embedding;
+    return embedding.values;
     //return embedding as number[];
   } catch (error) {
     console.log("error calling openai embeddings api", error);
