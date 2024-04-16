@@ -36,3 +36,5 @@ import {
   
   // drizzle-orm
   // drizzle-kit
+  //npx drizzle-kit studio to access studio
+  //npx drizzle-kit push:pg to update the db from studio
